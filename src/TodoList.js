@@ -1,7 +1,7 @@
-function TodoList(props){
-  return(
+function TodoList( {children} ){
+    return(
     <ul>
-        {props.children}
+        {children}
     </ul>
   );
 }
